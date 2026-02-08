@@ -1,15 +1,19 @@
 ---
 layout: home
 title: Home
-description: I'm @sebasmoles, a Colombian software developer who loves research, design, and writing.
+description: I'm @sebasmoles, a software engineer who loves research, design, and writing.
 ---
 
-# Who am I?
+I'm [@semoles](https://www.linkedin.com/in/semoles/){:target="_blank" .border-b}, a software engineer who loves research, design, and writing.
 
-I'm [@sebasmoles](https://twitter.com/sebasmoles){:target="\_blank"}, a Colombian software developer who loves research, design, and writing. 
+<br>
 
-I have 3+ years of [experience](/portfolio) in full-stack web development.
+I have 4+ years of [experience](/resume){: .border-b} building software solutions using web and AI technologies. I like to own outcomes through product thinking, problem-solving, stakeholder collaboration, and business-driven decision making.
 
-I also [write](/journal) about things I've learned and problems I've solved.
+<br>
 
-Get in touch!
+I also [write](/journal){: .border-b} about what I’ve learned and the problems I’ve solved.
+
+<br>
+
+[Say hi 👋](mailto:me@semoles.com){: .border-b}

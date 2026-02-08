@@ -15,14 +15,10 @@
   <meta property="article:author" content="https://www.facebook.com/sebasmolesg" />
   <meta property="article:published_time" content="{{ page.date }}" />
   <meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
-  <!-- Twitter card tags -->
-  <meta name="twitter:card" content="summary_large_image"/>
-  <meta name="twitter:title" content="{%if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
-  <meta name="twitter:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
-  <meta name="twitter:site" content="@sebasmoles" />
-  <meta name="twitter:creator" content="@sebasmoles">
-  <meta name="twitter:image" content="../assets/images/sebasmoles-card.png">
-
+      
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Geist+Mono:wght@100..900&family=Geist:wght@100..900&display=swap" rel="stylesheet">
   <link rel="canonical" href="{{ page.url | prepend: site.url }}">
   <link rel="stylesheet" href="{{ "/assets/main.css" | relative_url }}">
 
@@ -33,9 +29,9 @@
 
   <title>
     {% if page.title == 'Home' %}
-        Sebastian Morales - Software Developer 
+        Sebastian Morales | Software Engineer 
       {% else %}
-        {{ page.title }} - Sebastian Morales
+        {{ page.title }} | Sebastian Morales
     {% endif %}
   </title>
 

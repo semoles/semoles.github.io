@@ -19,30 +19,29 @@
 # in the templates via {{ site.myvariable }}.
 
 title: Sebastian Morales
-email: me@sebasmoles.com
+email: me@semoles.com
 description: >- # this means to ignore newlines until "baseurl:"
-    I am a software developer who loves research, design, and writing.
-domain: sebasmoles.com # if you want to force HTTPS, specify the domain without the http at the start, e.g. example.com
-url: https://sebasmoles.com # the base hostname & protocol for your site, e.g. http://example.com
+  I am a software engineer who loves research, design, and writing.
+domain: semoles.com # if you want to force HTTPS, specify the domain without the http at the start, e.g. example.com
+url: https://semoles.com # the base hostname & protocol for your site, e.g. http://example.com
 host: 0.0.0.0 # to get mobile access for testing
 permalink: /:slug # config slug property in the front matter of each page/post
 
 # Social links
-twitter_username: sebasmoles
-github_username: sebasmoles
-linkedin_username: sebasmoles
+github_username: semoles
+linkedin_username: semoles
 
 # Defaults
 defaults:
-    - scope:
-          path: "" # an empty string here means all files in the project
-      values:
-          author: "Sebastian " # space at the end is important for design in posts
+  - scope:
+      path: "" # an empty string here means all files in the project
+    values:
+      author: "Sebastian " # space at the end is important for design in posts
 
 # Build settings
 theme: minima
 plugins:
-    - jekyll-feed
+  - jekyll-feed
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
