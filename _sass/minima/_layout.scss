@@ -37,7 +37,7 @@
   }
 
   .page-link {
-    color: $text-color;
+    color: $grey-color;
     line-height: $base-line-height;
     font-weight: 400;
     @include relative-font-size(0.9);
@@ -108,7 +108,7 @@
  * Site footer
  */
 .site-footer {
-  padding: $spacing-unit 0;
+  padding-bottom: $spacing-unit;
 }
 
 .contact-list,
@@ -246,7 +246,6 @@
     &-section-title {
         font-size: $base-font-size;
         font-weight: bold;
-        text-decoration: underline;
     }
     
     &-grey-text {

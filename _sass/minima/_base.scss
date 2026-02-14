@@ -112,15 +112,25 @@ a {
     text-decoration: underline;
   }
 
-  .social-media-list &:hover {
-    text-decoration: none;
-
-    .username {
-      text-decoration: underline;
-    }
+  .social-media-list & {
+     color: $grey-color;
+     font-weight: 300;
   }
 }
 
+article {
+    a {
+        text-decoration-line: underline;
+        text-decoration-color: rgba(115, 115, 115, 0.5);
+        text-underline-offset: 4px;
+    }
+}
+
+.border-b {
+    text-decoration-line: underline;
+    text-decoration-color: rgba(115, 115, 115, 0.5);
+    text-underline-offset: 4px;
+}
 
 /**
  * Blockquotes
@@ -214,8 +224,14 @@ pre {
 }
 
 .social-media-list {
+  text-decoration: none;
+
   li + li {
     padding-top: 5px;
+  }
+  
+  span {
+      margin-left: 8px;
   }
 }
 
